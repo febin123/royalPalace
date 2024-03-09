@@ -1,6 +1,7 @@
 import About from "./components/About"
 import Dishes from "./components/Dishes"
 import Home from "./components/Home"
+import Menu from "./components/Menu"
 import Navbar from "./components/Navbar"
 
 
@@ -20,7 +21,11 @@ const App = () => {
 
       <div id="about">
           <About/>
-        </div>
+      </div>
+
+      <div id="about">
+          <Menu/>
+      </div>
 
 
       </main>
