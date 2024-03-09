@@ -7,14 +7,6 @@ const Home = () => {
         <h1 className=" text-backgroundColor font-semibold text-6xl">
           Elevate Your Inner Foodie with Every Bite.
         </h1>
-        <p className=" text-backgroundColor">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis et qui,
-          maxime assumenda repellat corrupti officia dolorum delectus labore
-          deleniti?
-        </p>
-        <div className=" lg:pl-44">
-          <Button title="Order Now" />
-        </div>
       </div>
     </div>
   );

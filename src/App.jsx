@@ -1,8 +1,10 @@
 import About from "./components/About"
 import Dishes from "./components/Dishes"
+import Footer from "./components/Footer"
 import Home from "./components/Home"
 import Menu from "./components/Menu"
 import Navbar from "./components/Navbar"
+import Review from "./components/Review"
 
 
 const App = () => {
@@ -23,12 +25,17 @@ const App = () => {
           <About/>
       </div>
 
-      <div id="about">
+      <div id="menu">
           <Menu/>
       </div>
 
+      <div id="review">
+          <Review/>
+        </div>
 
       </main>
+
+      <Footer/>
     </div>
   )
 }

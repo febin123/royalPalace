@@ -1,7 +1,4 @@
 import DishesCard from "../layouts/DishesCard";
-import menu1 from "../assets/img/menu1.jpg";
-import menu2 from "../assets/img/menu2.jpg";
-import menu3 from "../assets/img/menu3.jpg";
 
 const Menu = () => {
   return (
@@ -11,9 +8,9 @@ const Menu = () => {
       </h1>
 
       <div className=" flex flex-wrap gap-8 justify-center">
-        <DishesCard img={menu1} title="Delicious Dish" price="$16.99" />
-        <DishesCard img={menu2} title="Delicious Dish" price="$18.99" />
-        <DishesCard img={menu3} title="Delicious Dish" price="$14.99" />
+        <DishesCard img={"https://i.ndtvimg.com/i/2016-10/chicken-korma_650x400_51475662188.jpg"} title="Chicken Nihari" price="₹260" />
+        <DishesCard img={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCJBGB0GzUWcWAtOhe9Y0pIzB_M1gmTT_KpI5qp5JrSA&s"} title="Mutton Khemma" price="₹210" />
+        <DishesCard img={"https://www.tastycircle.com/wp-content/uploads/2014/06/kerala-parotta.jpg"} title="Malabar Paratha" price="₹20" />
       </div>
     </div>
   );

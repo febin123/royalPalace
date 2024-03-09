@@ -1,10 +1,4 @@
 
-import img1 from "../assets/img/img1.jpg";
-import img2 from "../assets/img/img2.jpg";
-import img3 from "../assets/img/img3.jpg";
-import img4 from "../assets/img/img4.jpg";
-import img5 from "../assets/img/img5.jpg";
-import img6 from "../assets/img/img6.jpg";
 import DishesCard from "../layouts/DishesCard";
 
 const Dishes = () => {
@@ -15,12 +9,12 @@ const Dishes = () => {
       </h1>
 
       <div className=" flex flex-wrap gap-8 justify-center">
-        <DishesCard img={img1} title="Tasty Dish" price="$10.99" />
-        <DishesCard img={img2} title="Tasty Dish" price="$12.99" />
-        <DishesCard img={img3} title="Tasty Dish" price="$10.99" />
-        <DishesCard img={img4} title="Tasty Dish" price="$11.99" />
-        <DishesCard img={img5} title="Tasty Dish" price="$10.99" />
-        <DishesCard img={img6} title="Tasty Dish" price="$12.99" />
+        <DishesCard img={"https://live.staticflickr.com/3/2809/33354707111_28840a00d1_b.jpg"} title="Chicken Tikka" price="₹230" />
+        <DishesCard img={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROdZcECQwDatUcRGqbdtfJP3bD5Yy4vNmOKA&s"} title="Panner Tikka" price="₹180" />
+        <DishesCard img={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7-LiiJXA7lPRajcYyAKy7rKuVpXnTozcq9UxQWNY4ow&s"} title="Akka Masor" price="₹80" />
+        <DishesCard img={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw8dNbu2yL3q3qms2ND1_rYiBsNMNIBeZcQltxeuGI0A&s"} title="Mutton Masala" price="₹220" />
+        <DishesCard img={"https://recipe52.com/wp-content/uploads/2019/08/Chicken-Nihari-Recipe-instagram.jpg"} title="Chicken Nalli" price="₹180" />
+        <DishesCard img={"https://myfoodstory.com/wp-content/uploads/2018/07/Perfect-Jeera-Rice-Indian-Cumin-Rice-4.jpg"} title="Jeera Rice" price="₹100" />
       </div>
     </div>
   );

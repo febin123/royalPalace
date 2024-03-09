@@ -11,20 +11,8 @@ const About = () => {
           Why Choose Us?
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-          architecto quisquam delectus minima perferendis nulla quia nisi
-          laborum, exercitationem cum quo accusantium, impedit sed. Dicta, quo
-          molestias omnis reprehenderit quae animi? Explicabo quasi accusamus
-          laboriosam temporibus delectus, aut a? Quasi?
+         We are one of the Chiplun's oldest(56 years) and legendary resturant. As our name suggest "Shobhra"(in Sanskrit) represents <b>Gift from Paradise</b>. We give gifts to our customer but in the form of food
         </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi,
-          suscipit reiciendis accusamus recusandae eum aspernatur pariatur odit
-          veritatis facere. Magnam!
-        </p>
-        <div className=" flex justify-center lg:justify-start">
-          <Button title="Learn More" />
-        </div>
       </div>
     </div>
   );
