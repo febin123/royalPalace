@@ -14,27 +14,17 @@ const Footer = () => {
         <div>
           <h1 className=" font-medium text-xl pb-4 pt-5 md:pt-0">Links</h1>
           <nav className=" flex flex-col gap-2">
+          
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/"
-            >
-              Dishes
-            </a>
-            <a
-              className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/"
+              href="#about"
             >
               About
             </a>
+            
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/"
-            >
-              Menu
-            </a>
-            <a
-              className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/"
+              href="#review"
             >
               Reviews
             </a>
@@ -45,13 +35,13 @@ const Footer = () => {
           <nav className=" flex flex-col gap-2">
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/"
+              href="#dishes"
             >
               Our Dishes
             </a>
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/"
+              href="#menu"
             >
               Premium Menu
             </a>
@@ -64,7 +54,7 @@ const Footer = () => {
               className=" hover:text-brightColor transition-all cursor-pointer"
               href="/"
             >
-              FoodieWeb@email.com
+              Bahadhur Sahikh Naka
             </a>
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"

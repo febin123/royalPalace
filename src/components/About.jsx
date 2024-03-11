@@ -11,7 +11,7 @@ const About = () => {
           Why Choose Us?
         </h1>
         <p>
-         We are one of the Chiplun's oldest(56 years) and legendary resturant. As our name suggest "Shobhra"(in Sanskrit) represents <b>Gift from Paradise</b>. We give gifts to our customer but in the form of food
+         We are one of the Chiplun's oldest(46 years) and legendary resturant. As our name suggest "Shobhra"(in Sanskrit) represents <b>Gift from Paradise</b>. We give gifts to our customer but in the form of food
         </p>
       </div>
     </div>
