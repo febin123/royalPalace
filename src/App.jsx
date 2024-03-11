@@ -5,9 +5,18 @@ import Home from "./components/Home"
 import Menu from "./components/Menu"
 import Navbar from "./components/Navbar"
 import Review from "./components/Review"
-
+import useOnlineStatus from './utilis/useOnlineStatus';
 
 const App = () => {
+  const onlineStatus=useOnlineStatus()
+   
+    
+    if(onlineStatus=== false)
+    return(
+      <h1 className='text-black'>🔴Looks like you are Offline!! </h1>
+    )
+
+
   return (
     <div>
       <Navbar/>
